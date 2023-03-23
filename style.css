@@ -5,20 +5,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #B0E0E6;
+    background-color: #ffadbb;
 }
 
 /* navbar */
 
-
-li {
-    float: left;
-    margin-right: 50px;
-    text-decoration: none;
-    list-style: none;
-}
-
-section#intro nav {
+nav {
     background-color: #ffff;
 }
 
@@ -30,11 +22,16 @@ section#intro nav {
 a {
     color: #000000;
     text-decoration: none;
+    opacity: 1;
 }
 
-li a:hover {
-    opacity: 0.7;
-    transform: scale(3.2);
+a:hover {
+    transition: 500ms;
+    background-color: #ffadbb;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 0 3px 3px 0px #888888;
+    
 }
 
 nav {
@@ -46,16 +43,26 @@ nav {
 
 /* capa */
 
-.grupo {
-    width: 500px;
-    height: 370px;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    background-color: green;
-    margin-right: 30px;
-    display: flex;
-    justify-content: center;
-
+#caixa-1 {
+    margin-left: 100px;
 }
 
+.grupo {
+    background-color: #fafafa;
+    width: 1200px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 0 #888888;
+}
+.text {
+    margin: 20px;
+    padding: 15px;
+}
+
+.img {
+    float: left;
+    width: 500px;
+    height: 370px;
+    margin: 20px;
+    border-radius: 5px;
+}
