@@ -43,20 +43,30 @@ nav {
 
 /* capa */
 
-#caixa-1 {
-    margin-left: 150px;
-}
+
 
 .grupo {
     background-color: #fafafa;
     width: 1200px;
     height: 400px;
+    margin: auto;
     border-radius: 5px;
     box-shadow: 8px 8px 8px 0 #888888;
 }
 .text {
     margin: 20px;
     padding: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 180px;
+    background-color: #ffadbb;
 }
 
 .img {
