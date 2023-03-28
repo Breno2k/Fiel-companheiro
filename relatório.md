@@ -16,3 +16,13 @@
 - Quarto dia
 
         Botamos em dia o Projeto !!!
+
+- Quinto dia
+
+        Apresentamos e pedimos para os novos integrantes colaborarem com o projeto;
+
+        Terminamos a "capa" do projeto.
+
+- Sexto dia
+
+        

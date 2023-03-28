@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body {
     background-color: #ffadbb;
 }
 
-/* navbar */
+/* NAVBAR */
 
 nav {
     background-color: #ffff;
@@ -41,7 +43,7 @@ nav {
     font-size: 20px;
 }
 
-/* capa */
+/* CAPA */
 
 
 
@@ -52,12 +54,14 @@ nav {
     margin: auto;
     border-radius: 5px;
     box-shadow: 8px 8px 8px 0 #888888;
+    margin-bottom: 50px;
 }
-.text {
+.text-capa {
     margin: 20px;
     padding: 15px;
     font-size: 50px;
     text-align: center;
+    font-family: 'Alkatra', cursive;
 }
 
 button {
@@ -67,12 +71,50 @@ button {
     border-radius: 10px;
     margin-left: 180px;
     background-color: #ffadbb;
+    font-family: 'Alkatra', cursive;
 }
 
 .img {
     float: left;
     width: 500px;
     height: 370px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* POR QUE ADOTAR */
+
+.grupo-2 {
+    background-color: #fafafa;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 0 #888888;
+    margin-bottom: 50px;
+}
+
+.img-2 {
+    float: right;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.txt-topic {
+    text-align: center;
+    font-size: 44px;
+}
+
+.text-pq {
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Alkatra', cursive;
+}
+
+/* QUERO ADOTAR */
+
+.img-3 {
+    float: left;
     margin: 20px;
     border-radius: 5px;
 }
