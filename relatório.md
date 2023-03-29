@@ -25,4 +25,4 @@
 
 - Sexto dia
 
-        
+        Terminamos a página inicial e começamos a fazer as outras páginas que possuem informações do site.
