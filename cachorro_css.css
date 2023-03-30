@@ -15,6 +15,12 @@ body {
     background-color: var(--cor-fundo-);
 }
 
+h1{
+    color: #fafafa;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 3px black;
+}
 a{
     text-decoration: none;
     color: var(--cor-texto);
@@ -61,23 +67,19 @@ nav {
 /* PÁGINA CACHORRO */
 
 .grupo-5 {
-    background-color: #fafafa;
     width: 1200px;
     height: 920px;
     margin: auto;
-    border-radius: 5px;
-    box-shadow: 8px 8px 8px 0 #888888;
 }
 
 .cachorro {
     list-style: none;
     justify-content: space-between;
     display: flex;
-
     text-align: center;
     font-size: 44px;
     padding: 20px;
-
+    margin-left: 80px;
 }
 
 .name-dog {
@@ -85,11 +87,13 @@ nav {
 }
 
 .name-dog {
-    border: solid 8px #ff899d;
+    border: solid 8px #fafafa;
     border-radius: 5px; 
-    background-color: #ff899d;
+    background-color: #fafafa;
     box-shadow: 8px 8px 8px 0 #888888;
-    
+    margin: 20px;
+    list-style: none;
+    height: 430px;
 }
 
 .ab{
