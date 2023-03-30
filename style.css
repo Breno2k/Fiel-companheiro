@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
+:root{
+    --cor-fundo-: #fdc6cf;
+    --cor-branco: #ffff;
+    --cor-texto: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffadbb;
+    font-family: 'Segoe UI';
+    background-color: var(--cor-fundo-);
 }
 
+a{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
 /* NAVBAR */
 
 nav {
-    background-color: #ffff;
+    background-color: var(--cor-branco);
 }
 
 #logo {
@@ -21,22 +32,23 @@ nav {
     height: 70px;
 }
 
-a {
-    color: #000000;
+.titulo-nav {
+    color: var(--cor-texto);
     text-decoration: none;
     opacity: 1;
 }
 
-a:hover {
+.titulo-nav:hover {
     transition: 500ms;
-    background-color: #ffadbb;
+    background-color: var(--cor-fundo-);
     border-radius: 5%;
     padding: 10px;
-    box-shadow: 0 3px 3px 0px #888888;
+    box-shadow: 0 3px 3px 0px #888888 ;
     
+
 }
 
-a:not(:hover) {
+.titulo-nav:not(:hover) {
     transition: 500ms;
 }
 
@@ -52,7 +64,7 @@ nav {
 
 
 .grupo {
-    background-color: #fafafa;
+    background-color: var(--cor-branco);
     width: 1200px;
     height: 400px;
     margin: auto;
@@ -60,12 +72,12 @@ nav {
     box-shadow: 8px 8px 8px 0 #888888;
     margin-bottom: 50px;
 }
+
 .text-capa {
     margin: 20px;
     padding: 15px;
     font-size: 50px;
     text-align: center;
-    font-family: 'Alkatra', cursive;
 }
 
 .btn-principal {
@@ -73,17 +85,17 @@ nav {
     font-size: 20px;
     margin: auto;
     border-radius: 10px;
-    background-color: #ffadbb;
-    font-family: 'Alkatra', cursive;
+    background-color: var(--cor-fundo-);
+    border-color: var(--cor-fundo-);
 }
 
 .btn-principal:hover {
     transition: 500ms;
-    background-color: #ffadbb;
+    background-color: var(--cor-fundo-);
     border-radius: 5%;
     padding: 17px;
     box-shadow: 0 3px 3px 0px #888888;
-    
+
 }
 
 .btn-principal:not(:hover) {
@@ -101,7 +113,7 @@ nav {
 /* POR QUE ADOTAR */
 
 .grupo-2 {
-    background-color: #fafafa;
+    background-color: var(--cor-branco);
     width: 1200px;
     height: 600px;
     margin: auto;
@@ -125,7 +137,6 @@ nav {
 .text-pq {
     text-align: center;
     font-size: 33px;
-    font-family: 'Alkatra', cursive;
     padding: 20px;
 }
 
@@ -138,9 +149,19 @@ nav {
 }
 
 .grupo-3 {
-    background-color: #fafafa;
+    background-color: var(--cor-branco);
     width: 1200px;
     height: 420px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 0 #888888;
+    margin-bottom: 50px;
+}
+
+.grupo-4 {
+    background-color: var(--cor-branco);
+    width: 1200px;
+    height: 600px;
     margin: auto;
     border-radius: 5px;
     box-shadow: 8px 8px 8px 0 #888888;
@@ -153,17 +174,18 @@ nav {
     align-items: center;
     border-radius: 10px;
     margin: 10px;
-    background-color: #ffadbb;
-    font-family: 'Alkatra', cursive;
+    background-color: var(--cor-fundo-);
+    border-color: var(--cor-fundo-);
+    
 }
 
 .btn-adote:hover {
     transition: 500ms;
-    background-color: #ffadbb;
+    background-color: var(--cor-fundo-);
     border-radius: 5%;
     padding: 13px;
     box-shadow: 0 3px 3px 0px #888888;
-    
+
 }
 
 .btn-adote:not(:hover) {
@@ -176,25 +198,124 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  
-  .imagem {
+}
+
+.imagem {
     margin: 10px;
     text-align: center;
-  }
-  
-  .img-qmsomos {
+}
+
+.img-qmsomos {
     max-width: 100%;
     width: 190px;
     height: 190px;
     border-radius: 125px;
     padding: 10px;
-  }
+}
 
 /* FOOTER */
 
-footer {
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    height: 200px;
-    background-color: #888888;
+}
+.footer-content h3{
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: var(--cor-fundo-);
+}
+
+.logo-footer{
+    width: 65px;
+    height: 65px;
+    
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+/* PÁGINA CACHORRO */
+
+.grupo-5 {
+    background-color: #fafafa;
+    width: 1200px;
+    height: 920px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 0 #888888;
+}
+
+ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+
+    text-align: center;
+    font-size: 44px;
+    padding: 20px;
+
+}
+
+.name-dog {
+    border: solid 8px #ff899d;
+    border-radius: 5px; 
+    background-color: #ff899d;
+    box-shadow: 8px 8px 8px 0 #888888;
+    
+}
+
+.ab{
+    font: normal 10pt arial;
 }

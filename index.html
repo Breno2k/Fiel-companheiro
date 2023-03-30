@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/favicon-fiel-companheiro.png">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e70741025b.js" crossorigin="anonymous"></script>
     <title>Fiel companheiro</title>
 </head>
 
@@ -14,10 +17,10 @@
     <header>
         <nav>
             <img id="logo" src="imagens/favicon-fiel-companheiro.png" alt="Fiel companheiro">
-            <a href="#caixa-2">Por que adotar</a>
-            <a href="#caixa-3">Quero Adotar</a>
-            <a href="#">Quero Ajudar</a>
-            <a href="#">Quem somos</a>
+            <a class="titulo-nav" href="#caixa-2">Por que adotar</a>
+            <a class="titulo-nav" href="#caixa-3">Quero Adotar</a>
+            <a class="titulo-nav" href="#caixa-3">Quero Ajudar</a>
+            <a class="titulo-nav" href="#">Quem somos</a>
         </nav>
     </header>
     <section id="caixa-1">
@@ -61,7 +64,7 @@
                     O amor não tem raça, adote um animal de estimação sem preconceitos!
                 </p>
                 <div id="grupo-do-centro">
-                <button class="btn-adote">Cliqui aqui e adote</button> <!-- Botão que leva para página de adoção -->
+                <button class="btn-adote"><a href="cachorros.html">Clique aqui e adote</button></a> <!-- Botão que leva para página de adoção -->
                 <button class="btn-adote">Faça uma doação</button> <!-- Botão que leva para página de login -->                    
                 </div>
 
@@ -70,7 +73,7 @@
     </section>
     <section id="caixa-4">
         <header>
-            <div class="grupo-2"> <!-- a ideia é botar a imagem dos integrantes do grupo-->
+            <div class="grupo-4"> <!-- a ideia é botar a imagem dos integrantes do grupo-->
                 <h1 class="txt-topic">
                     Quem somos
                 </h1>
@@ -112,9 +115,21 @@
             </div>
         </header>
     </section>
-
     <footer>
-        by neto
+        <div class="footer-content">
+            <h3>FIEL COMPANHEIRO</h3>
+            <p>Um animal de estimação não é um acessório, é um compromisso. Adote com responsabilidade!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul> 
+            <img class="logo-footer" src="imagens/favicon-fiel-companheiro.png" alt="Fiel ompanheiro footer">
+        </div> 
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 
