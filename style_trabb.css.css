@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo img {
+    height: 80px;
+    width: 100px;
+    
+}
+.logo {
+    width: 25%;
+    position: relative;
+    left: -60px;
+}
+.menu {
+
+}
+.menu nav a{
+    color: black;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 19px;
+    position: relative;
+}
+.menu nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.menu nav a:hover::after{
+    width: 90%;
+
+} 
+.div2 {
+    background: white;
+    height: 2100px;
+    width: 60%;
+    position: relative;
+    left: 280px;
+    align-items: center;
+    justify-content: center;
+}
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    margin-top: 40px;
+    
+
+}
+.formato,p {
+    padding: 15px;
+
+}
+.organ,ol {
+    position: relative;
+    left:30px;
+}
+.mag,img {
+    margin: 10px;
+}
+.bank {
+    border: solid pink;
+    width: min-content;
+    margin: 20px;
+    font-weight: bold;
+}
+.email {
+    border: double pink;
+    width: fit-content;
+}
+.divsep {
+    
+    
+}
+.imgw {
+    width: 150px;
+    position: relative;
+    left: -20px;
+    cursor: pointer;
+}
+.esp {
+    margin: 12px;
+}
+
+

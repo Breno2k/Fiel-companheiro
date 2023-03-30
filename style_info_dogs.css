@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
+:root{
+    --cor-fundo-: #fdc6cf;
+    --cor-branco: #ffff;
+    --cor-texto: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffadbb;
+    font-family: 'Segoe UI';
+    background-color: var(--cor-fundo-);
 }
 
+a{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
 /* NAVBAR */
 
 nav {
-    background-color: #ffff;
+    background-color: var(--cor-branco);
 }
 
 #logo {
@@ -21,12 +32,24 @@ nav {
     height: 70px;
 }
 
-a:hover {
+.titulo-nav {
+    color: var(--cor-texto);
+    text-decoration: none;
+    opacity: 1;
+}
+
+.titulo-nav:hover {
     transition: 500ms;
-    background-color: #ffadbb;
+    background-color: var(--cor-fundo-);
     border-radius: 5%;
     padding: 10px;
-    box-shadow: 0 3px 3px 0px #888888;
+    box-shadow: 0 3px 3px 0px #888888 ;
+    
+
+}
+
+.titulo-nav:not(:hover) {
+    transition: 500ms;
 }
 
 nav {
@@ -36,11 +59,12 @@ nav {
     font-size: 20px;
 }
 
+/* COMEÇO */
+
 h1 {
     color: #000000;
     margin-left: 75px;
     padding: 10px;
-    font-family: "Alkatra", cursive;
 }
 
 .ficha-1 {
@@ -78,7 +102,6 @@ h1 {
     justify-content: space-around;
     width: 1250px;
     font-size: 30px;
-    font-family: 'Alkatra', cursive;
 }
 
 
@@ -87,9 +110,9 @@ button {
     font-size: 20px;
     margin: auto;
     border-radius: 10px;
-    width: 820px;
+    width: 420px;
     background-color: #ffadbb;
-    font-family: 'Alkatra', cursive;
+    display: block;
 }
 
 .ficha-2 {
@@ -115,14 +138,12 @@ button {
     font-size: 30px;
     margin-top: -5px;
     margin-left: 20px;
-    font-family: 'Alkatra', cursive;
 }
 
 .texto-4 {
     justify-content: space-around;
     width: 1250px;
     font-size: 30px;
-    font-family: 'Alkatra', cursive;
 }
 
 .ficha-3 {
@@ -148,14 +169,12 @@ button {
     font-size: 30px;
     margin-top: -5px;
     margin-left: 20px;
-    font-family: 'Alkatra', cursive;
 }
 
 .texto-6 {
     justify-content: space-around;
     width: 1250px;
     font-size: 30px;
-    font-family: 'Alkatra', cursive;
 }
 
 .ficha-4 {
@@ -181,14 +200,12 @@ button {
     font-size: 30px;
     margin-top: -5px;
     margin-left: 20px;
-    font-family: 'Alkatra', cursive;
 }
 
 .texto-8 {
     justify-content: space-around;
     width: 1250px;
     font-size: 30px;
-    font-family: 'Alkatra', cursive;
 }
 
 .ficha-5 {
@@ -214,14 +231,12 @@ button {
     font-size: 30px;
     margin-top: -5px;
     margin-left: 20px;
-    font-family: 'Alkatra', cursive;
 }
 
 .texto-10 {
     justify-content: space-around;
     width: 1250px;
     font-size: 30px;
-    font-family: 'Alkatra', cursive;
 }
 
 .ficha-6 {
@@ -247,14 +262,85 @@ button {
     font-size: 30px;
     margin-top: -5px;
     margin-left: 20px;
-    font-family: 'Alkatra', cursive;
 }
 
 .texto-12 {
     justify-content: space-around;
     width: 1250px;
     font-size: 30px;
-    font-family: 'Alkatra', cursive;
+}
+
+/* FOOTER */
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: var(--cor-fundo-);
+}
+
+.logo-footer{
+    width: 65px;
+    height: 65px;
+    
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }
 
 

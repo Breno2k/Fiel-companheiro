@@ -221,8 +221,8 @@ footer{
     right: 0;
     background: #111;
     height: auto;
-    width: 100vw;
-    font-family: "Open Sans";
+    width: 100%;
+    font-family: 'Segoe UI';
     padding-top: 40px;
     color: #fff;
 }
@@ -286,36 +286,3 @@ footer{
     text-transform: capitalize;
 }
 
-/* PÁGINA CACHORRO */
-
-.grupo-5 {
-    background-color: #fafafa;
-    width: 1200px;
-    height: 920px;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: 8px 8px 8px 0 #888888;
-}
-
-ul{
-    list-style: none;
-    justify-content: space-between;
-    display: flex;
-
-    text-align: center;
-    font-size: 44px;
-    padding: 20px;
-
-}
-
-.name-dog {
-    border: solid 8px #ff899d;
-    border-radius: 5px; 
-    background-color: #ff899d;
-    box-shadow: 8px 8px 8px 0 #888888;
-    
-}
-
-.ab{
-    font: normal 10pt arial;
-}
