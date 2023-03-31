@@ -90,6 +90,17 @@ nav {
     float: left;
 }
 
+.name-dog:hover{
+    transition: 500ms;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #000000;
+}
+
+.name-dog:not(:hover) {
+    transition: 500ms;
+}
+
 .name-dog {
     border: solid 8px #fafafa;
     border-radius: 5px; 
