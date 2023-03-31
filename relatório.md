@@ -34,3 +34,7 @@
 
         Demos início a pagina de quem quer contribuir e ao formulário.
 
+- Oitavo dia
+
+        Finalizamos o projeto e estamos prontos para a entraga parcial.
+
