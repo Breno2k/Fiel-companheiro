@@ -62,9 +62,13 @@ nav {
 /* COMEÇO */
 
 h1 {
-    color: #000000;
+
+    color: var(--cor-branco);
     margin-left: 75px;
     padding: 10px;
+    text-shadow: 4px 4px 3px black;
+    text-align: center;
+    font-size: 50px;
 }
 
 .ficha-1 {
