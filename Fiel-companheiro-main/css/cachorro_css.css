@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --cor-fundo-: #fdc6cf;
+    --cor-branco: #ffff;
+    --cor-texto: #000000;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background-color: var(--cor-fundo-);
+}
+
+h1{
+    color: #fafafa;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 3px black;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+/* NAVBAR */
+
+nav {
+    background-color: var(--cor-branco);
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+.titulo-nav {
+    color: var(--cor-texto);
+    text-decoration: none;
+    opacity: 1;
+}
+
+.titulo-nav:hover {
+    transition: 500ms;
+    background-color: var(--cor-fundo-);
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 0 3px 3px 0px #888888 ;
+    
+
+}
+
+.titulo-nav:not(:hover) {
+    transition: 500ms;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+/* PÁGINA CACHORRO */
+
+#caixa-5 {
+    height: 1100px;
+}
+
+.grupo-5 {
+    width: 1200px;
+    height: 920px;
+    margin: auto;
+}
+
+.cachorro {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    font-size: 44px;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.name-dog {
+    float: left;
+}
+
+.name-dog:hover{
+    transition: 500ms;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #000000;
+}
+
+.name-dog:not(:hover) {
+    transition: 500ms;
+}
+
+.name-dog {
+    border: solid 8px #fafafa;
+    border-radius: 5px; 
+    background-color: #fafafa;
+    box-shadow: 8px 8px 8px 0 #888888;
+    margin: 20px;
+    list-style: none;
+    height: 430px;
+}
+
+.ab{
+    font: normal 10pt arial;
+}
+
+/* FOOTER */
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Segoe UI';
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: var(--cor-fundo-);
+}
+
+.logo-footer{
+    width: 65px;
+    height: 65px;
+    
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
