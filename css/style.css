@@ -61,7 +61,10 @@ nav {
 
 /* CAPA */
 
-
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+}
 
 .grupo {
     background-color: var(--cor-branco);
@@ -69,17 +72,23 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
-    
     margin: auto;
     margin-bottom: 50px;
     justify-content: center;
-    line-height: 450px; 
+}
+
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .text-capa {
 
     padding: 20px;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -90,6 +99,7 @@ nav {
     border-radius: 10px;
     background-color: var(--cor-fundo-);
     border-color: var(--cor-fundo-);
+    float: right;
 }
 
 .btn-principal:hover {
