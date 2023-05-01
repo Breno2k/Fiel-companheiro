@@ -146,15 +146,11 @@ fieldset.grupo .campo {
 .botao, select{
     cursor: pointer;
 }
-
+/* Tirar os elementos de exemplos da caixa do formulario*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
-
-input[type=number]{
-    -moz-appearance: textfield;
 }
 
 
@@ -220,7 +216,6 @@ footer{
 
 .footer-bottom{
     background: #000;
-    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
