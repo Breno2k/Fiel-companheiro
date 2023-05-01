@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Segoe UI';
-    background-color: var(--cor-fundo-);
+    background-color: #1E1E1E
 }
 
 a{
@@ -24,7 +24,7 @@ a{
 /* NAVBAR */
 
 nav {
-    background-color: var(--cor-branco);
+    background-color: #FFE0D8
 }
 
 #logo {
@@ -65,17 +65,20 @@ nav {
 
 .grupo {
     background-color: var(--cor-branco);
-    width: 1200px;
-    height: 400px;
+    background-image: url(../imagens/jovem-com-cachorro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    
     margin: auto;
-    border-radius: 5px;
-    box-shadow: 8px 8px 8px 0 #888888;
     margin-bottom: 50px;
+    justify-content: center;
+    line-height: 450px; 
 }
 
 .text-capa {
-    margin: 20px;
-    padding: 15px;
+
+    padding: 20px;
     font-size: 50px;
     text-align: center;
 }
@@ -100,14 +103,6 @@ nav {
 
 .btn-principal:not(:hover) {
     transition: 500ms;
-}
-
-.img {
-    float: left;
-    width: 500px;
-    height: 370px;
-    margin: 20px;
-    border-radius: 5px;
 }
 
 /* POR QUE ADOTAR */
