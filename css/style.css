@@ -14,9 +14,10 @@
 
 body {
     font-family: 'Segoe UI';
-    background-color: var(--cor-branco);
+    background-color: #eea6b4;
 }
-
+/*
+    background: repeat scroll 0% 0% / auto padding-box border-box none transparent;*/
 a{
     text-decoration: none;
     color: var(--cor-texto);
@@ -24,7 +25,8 @@ a{
 /* NAVBAR */
 
 nav {
-    background-color: #FFE0D8
+    background-color: #eea6b4;
+
 }
 
 #logo {
@@ -37,10 +39,9 @@ nav {
     text-decoration: none;
     opacity: 1;
 }
-
+/*
 .titulo-nav:hover {
     transition: 500ms;
-    background-color: var(--cor-fundo-);
     border-radius: 5%;
     padding: 10px;
     box-shadow: 0 3px 3px 0px #888888 ;
@@ -48,10 +49,11 @@ nav {
 
 }
 
+
 .titulo-nav:not(:hover) {
     transition: 500ms;
 }
-
+*/
 nav {
     display: flex;
     justify-content: space-around;
@@ -68,8 +70,8 @@ nav {
 }
 
 .grupo {
-    background-color: var(--cor-branco);
-    background-image: url(../imagens/jovem-com-cachorro.jpg);
+    background-image: url(../imagens/background1.png);
+    
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
