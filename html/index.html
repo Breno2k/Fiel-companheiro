@@ -20,7 +20,7 @@
             <a class="titulo-nav" href="#caixa-2">Por que adotar</a>
             <a class="titulo-nav" href="#caixa-3">Quero Adotar</a>
             <a class="titulo-nav" href="#caixa-3">Quero Ajudar</a>
-            <a class="titulo-nav" href="#caixa-4">Quem somos</a>
+            <a class="titulo-nav smooth-scroll" href="#caixa-4">Quem somos</a>
         </nav>
     </header>
     <section id="caixa-1">
@@ -141,6 +141,28 @@
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Quando um link com a classe "smooth-scroll" for clicado
+            $(".smooth-scroll").on("click", function (event) {
+                // Impedir o comportamento padrão do link
+                event.preventDefault();
+
+                // Obter o destino do link (seção correspondente) do atributo "href"
+                var target = $(this).attr("href");
+
+                // Rolar suavemente para o destino usando a função "animate" do jQuery
+                $("html, body").animate(
+                    {
+                        scrollTop: $(target).offset().top
+                    },
+                    1000 // Tempo em milissegundos para a rolagem suave
+                );
+            });
+        });
+    </script>
 </body>
 
 </html>
